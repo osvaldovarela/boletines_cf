@@ -23,9 +23,9 @@ links.forEach(function (link) {
     content.classList.add("animate__fadeOutUp");
     content.classList.add("animate__animated");
 
-    /* setTimeout(function () {
+    setTimeout(function () {
       location.href = "/";
-    }, 600); */
+    }, 600);
 
     return false;
   });
