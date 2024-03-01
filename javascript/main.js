@@ -24,7 +24,7 @@ links.forEach(function (link) {
     content.classList.add("animate__animated");
 
     setTimeout(function () {
-      location.href = "/";
+      location.href = "/boletines_cf";
     }, 600);
 
     return false;
